@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @NoArgsConstructor
+@Getter
 public class Member extends BaseIdAndTime {
     @Column(unique = true)
     private String username;
